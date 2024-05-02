@@ -27,4 +27,4 @@ Vue.js
 Axios
 
 ## Backend API
-This frontend application interacts with the SWOP API backend to fetch exchange rate information. Ensure that the backend server is running and accessible from this frontend application.
+This frontend application interacts with the SWOP API [backend](https://github.com/filip-ch9/swop-api-app) to fetch exchange rate information. Ensure that the backend server is running and accessible from this frontend application.
