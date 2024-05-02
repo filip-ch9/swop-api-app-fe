@@ -8,12 +8,13 @@ This is the frontend application for the SWOP API. It allows users to interact w
 2. Install dependencies using npm or yarn:
 
    ```bash  
-   npm install# or  
+   npm install
+   # or  
    yarn install
    ```  
 3. Start the development server:
    ```bash  
-   npm run serve  
+   npm run serve 
    # or  
    yarn serve  
    ```  
