@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     fetchCurrencyData() {
-      axios.post(`http://localhost:9090/api/currency/exchange?source_currency=${this.sourceCurrency}&target_currency=${this.targetCurrency}&amount=${this.amount}`, {
+      axios.get(`http://localhost:9090/api/currency/exchange?source_currency=${this.sourceCurrency}&target_currency=${this.targetCurrency}&amount=${this.amount}`, {
       }).then(response => {
             this.currencyResponse = response.data;
           })
