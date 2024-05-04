@@ -26,6 +26,9 @@
 
 <script>
 import axios from 'axios';
+import { createToaster } from "@meforma/vue-toaster";
+
+const toaster = createToaster({ });
 
 export default {
   data() {
@@ -43,7 +46,9 @@ export default {
             this.currencyResponse = response.data;
           })
           .catch(error => {
-            console.error('Error fetching currency data:', error);
+            toaster.error(error.response.data.message, {
+              position: "top",
+            })
           });
     }
   }
