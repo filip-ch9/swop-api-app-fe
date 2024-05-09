@@ -18,7 +18,7 @@ This is the frontend application for the SWOP API. It allows users to interact w
    # or  
    yarn serve  
    ```  
-4. Open your browser and navigate to http://localhost:3000 to access the application.
+4. Open your browser and navigate to http://localhost:8082 to access the application.
 5. Enter the source currency, target currency, and amount in the respective input fields.
 6. Click the "Get Exchange Rate" button to fetch the exchange rate information from the backend.
 7. The exchange rate information will be displayed below the button.
